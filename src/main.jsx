@@ -7,7 +7,7 @@ import store from './storages/index.js';
 
 import App from './components/App.jsx';
 
-window.srcData= 'http://currency.ua-ix.biz/';
+window.srcData= '/';
 
 ReactDOM.render(
 	<Provider store={ store }>
